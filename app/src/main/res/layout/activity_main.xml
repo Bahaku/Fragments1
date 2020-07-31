@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/eTSite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginTop="100dp"
+    android:hint="@string/Ssilka">
+
+</EditText>
+
+    <Button
+        android:id="@+id/btnSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/eTSite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:text="@string/ssilka2">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSite"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/Number">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/callNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNumber"
+        android:layout_marginTop="40dp"
+        android:text="@string/Call">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

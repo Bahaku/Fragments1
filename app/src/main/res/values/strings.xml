@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fragments1</string>
+    <string name="Ssilka">Ссылка</string>
+    <string name="ssilka2">Перейти по ссылке</string>
+    <string name="Number">Введите номер телефона</string>
+    <string name="Call">Позвонить</string>
+</resources>
